@@ -58,5 +58,10 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder> {
 
         }
     }
+
+    public Pharmacy getItem(int position) {
+
+        return mItems.get(position);
+    }
 }
 
